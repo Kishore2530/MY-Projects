@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>student-app</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>main.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  		<servlet-name>SearchServlet</servlet-name>
+  		<servlet-class>com.ty.studentapp.sevlets.SearchStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>SearchServlet</servlet-name>
+  		<url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>RegisterServlet</servlet-name>
+  		<servlet-class>com.ty.studentapp.sevlets.RegistrationStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>RegisterServlet</servlet-name>
+  		<url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>ForgotPasswordServlet</servlet-name>
+  		<servlet-class>com.ty.studentapp.sevlets.ForgotPasswordServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>ForgotPasswordServlet</servlet-name>
+  		<url-pattern>/change</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>LoginServlet</servlet-name>
+  		<servlet-class>com.ty.studentapp.sevlets.LoginStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>LoginServlet</servlet-name>
+  		<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

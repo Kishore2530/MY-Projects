@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Student</title>
+<link rel="stylesheet" href="Styles/style.css">   
+</head>
+<body>
+
+	<h1>Register Here...</h1>
+	<hr>
+	
+	<div class="main">
+		<ul class="main-ul">
+			<li><div class="anc-div"><a href="login.html" class="anchor"><div class="text">Login</div></a></div></li>
+			<li><div class="anc-div"><a href="register-student-form.html" class="anchor"><div class="text">Register</div></a></div></li>
+			<li><div class="anc-div"><a href="forget-password.html" class="anchor"><div class="text">Forget Password</div></a></div></li>
+		</ul>
+	</div>
+	
+	<div class="container">
+		
+		<form action="register" method="POST" class="form">
+			<label>Student ID <sup class="sup">*</sup></label> <br>
+			<input type="text" name="sid" required="required">
+			<br><br>
+			
+			<label>Name <sup class="sup">*</sup></label> <br>
+			<input type="text" name="sname" required="required">
+			<br><br>		
+			
+			<label>Marks <sup class="sup">*</sup></label> <br>
+			<input type="text" name="smark" required="required">
+			<br><br>
+			
+			<label>Email ID <sup class="sup">*</sup></label> <br>
+			<input type="email" name="smail" required="required">
+			<br><br>
+			
+			<label>Password <sup class="sup">*</sup></label> <br>
+			<input type="password" name="spass" required="required">
+			<br><br>
+			
+			<input type="submit" value="REGISTER" class="buttons">
+		</form>
+	</div>
+
+</body>
+</html>

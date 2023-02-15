@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.main ul {
+	list-style: none;
+}
+.anchor {
+	text-decoration: none;
+}
+.main-ul {
+	display: flex;
+}
+.anc-div {
+	height: 55px;
+	width: 180px;
+	border: 2px solid red;
+	margin-left: 180px;
+	margin-top: 40px;
+}
+.text {
+	text-align: center;
+	margin-top: 17px;
+}
+h1 {
+	text-align: center;
+	color: green;
+}
+.form {
+	border: 2px solid black;
+	width: 350px;
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.sup {
+	color: red;
+}
+input {
+	border-radius: 10px;
+}
+.buttons {
+	background-color: grey;
+	color: white;
+}
+body {
+	height : 100%;
+	width : 100%;
+	background-color: grey;
+}
+.after-login {
+	display: flex;
+}
